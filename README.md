@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/TimpsCalendar.svg?style=flat)](https://cocoapods.org/pods/TimpsCalendar)
 [![Platform](https://img.shields.io/cocoapods/p/TimpsCalendar.svg?style=flat)](https://cocoapods.org/pods/TimpsCalendar)
 
+
+<p align="center"><img src="Timps_logo.png"></p>
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
