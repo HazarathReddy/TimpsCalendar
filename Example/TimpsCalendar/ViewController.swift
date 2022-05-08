@@ -11,17 +11,23 @@ import TimpsCalendar
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var calendar: TimpsCalendar!
+    @IBOutlet weak var calendar: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        calendar.layer.cornerRadius = 10
-        calendar.layer.borderWidth = 1.0
-        calendar.layer.borderColor = UIColor.darkGray.withAlphaComponent(0.3).cgColor
-        calendar.layer.masksToBounds = true
-        calendar.calendarType = .quick
-        calendar.delegate = self
+
+        let timpsCalendar = TimpsCalendar(frame: calendar.bounds)
+        timpsCalendar.calendarType = .normal
+        timpsCalendar.delegate = self
+        self.calendar.addSubview(timpsCalendar)
+
+//        calendar.layer.cornerRadius = 10
+//        calendar.layer.borderWidth = 1.0
+//        calendar.layer.borderColor = UIColor.darkGray.withAlphaComponent(0.3).cgColor
+//        calendar.layer.masksToBounds = true
+//        calendar.calendarType = .quick
+//        calendar.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,9 +39,7 @@ class ViewController: UIViewController {
 
 extension ViewController: TimpsCalendarDelegate {
     func selectedDate(date: Date) {
-
         debugPrint("Selected date: \(date)")
     }
-
 }
 
