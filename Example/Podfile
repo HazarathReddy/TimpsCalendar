@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TimpsCalendar_Example' do
+  pod 'TimpsCalendar', :path => '../'
+
+  target 'TimpsCalendar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

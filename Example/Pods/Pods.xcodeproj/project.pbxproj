@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		055F1EBC3D596243789189338C9452C4 /* Pods-TimpsCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3CE1BFE6642EF5553FF3635E4CBEEB /* Pods-TimpsCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15FFEC8417053D0C0FF14A06CE4D441A /* TimpsCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8053470B8AF9A673258DC4AD328728 /* TimpsCalendar-dummy.m */; };
+		32164F18279DA33670079565F864169E /* Pods-TimpsCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12676C5D43F6A4922EDBD4BA11FE2C35 /* Pods-TimpsCalendar_Tests-dummy.m */; };
+		370317D3F00891B41D70C29C6C2AA91F /* TimpsCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB248585F6AE3D88B4A07F0B4EB3B05 /* TimpsCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		474BBBD92140878EE0F2D8C510FE33F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4E22B1BA5A0788BCBE59F8830D1BCA44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5785E9882827E3830034C27A /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5785E9872827E3830034C27A /* assets.xcassets */; };
+		579912232826603200BFFF1F /* TimpsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799121C2826603200BFFF1F /* TimpsConstants.swift */; };
+		579912242826603200BFFF1F /* TimpsCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799121D2826603200BFFF1F /* TimpsCalendar.swift */; };
+		579912252826603200BFFF1F /* TimpsNormalDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799121E2826603200BFFF1F /* TimpsNormalDatePicker.swift */; };
+		579912262826603200BFFF1F /* TimpsQuickDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799121F2826603200BFFF1F /* TimpsQuickDatePicker.swift */; };
+		579912272826603200BFFF1F /* TimpsDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579912202826603200BFFF1F /* TimpsDatePicker.swift */; };
+		579912282826603200BFFF1F /* TimpsDateViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579912212826603200BFFF1F /* TimpsDateViewer.swift */; };
+		579912292826603200BFFF1F /* TimpsDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579912222826603200BFFF1F /* TimpsDatePickerView.swift */; };
+		5799122B2826607900BFFF1F /* TimpDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799122A2826607900BFFF1F /* TimpDates.swift */; };
+		5799122D282660C200BFFF1F /* TimpDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799122C282660C200BFFF1F /* TimpDelegates.swift */; };
+		5799122F2826E63200BFFF1F /* TimpTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799122E2826E63200BFFF1F /* TimpTypes.swift */; };
+		60A8677FD50CC4BE2691D5CE3B98FAA3 /* Pods-TimpsCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AFBA6DE75E565F3D266A9192892F801 /* Pods-TimpsCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F330CA35C5257ED28CDA71E6E93418BC /* Pods-TimpsCalendar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3B3A67F4FCBD3F2EE8E7B638660905 /* Pods-TimpsCalendar_Example-dummy.m */; };
+		FD649E95D0017D702BCEFF5E5CE1FF21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8404450AFFEEC4CE2567E4B7F96534E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B3B03417D0D4285D7DD13474787742;
+			remoteInfo = "Pods-TimpsCalendar_Example";
+		};
+		E04C2BA00051220922865D13D7380094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4030F907D6447CB2E3EC7D5720757C6;
+			remoteInfo = TimpsCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FD647CA8919687025FF116F7F601A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		12676C5D43F6A4922EDBD4BA11FE2C35 /* Pods-TimpsCalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimpsCalendar_Tests-dummy.m"; sourceTree = "<group>"; };
+		1719E1EE4EED35BF6373C78E3B489F75 /* Pods-TimpsCalendar_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TimpsCalendar_Tests"; path = Pods_TimpsCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0012A5D931A58F28F29B444B40864C /* Pods-TimpsCalendar_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TimpsCalendar_Example"; path = Pods_TimpsCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F29FB647B1394F9E757E5A5F9136A42 /* Pods-TimpsCalendar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimpsCalendar_Example-Info.plist"; sourceTree = "<group>"; };
+		232C4DD0D9CBB01ED57FB5B5AF44F4F3 /* Pods-TimpsCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimpsCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A8053470B8AF9A673258DC4AD328728 /* TimpsCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimpsCalendar-dummy.m"; sourceTree = "<group>"; };
+		3094D200B64983D7BC1542003F1FB39E /* TimpsCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TimpsCalendar.modulemap; sourceTree = "<group>"; };
+		3720E2CCE34172DDAB8BD2BDEEA87E4E /* Pods-TimpsCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimpsCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3AFBA6DE75E565F3D266A9192892F801 /* Pods-TimpsCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimpsCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
+		40935B1DC7E4A779C77266541C103967 /* Pods-TimpsCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimpsCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		50C24F496ADC97DA15347B72CA4A8794 /* TimpsCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimpsCalendar-prefix.pch"; sourceTree = "<group>"; };
+		5785E9872827E3830034C27A /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
+		5799121C2826603200BFFF1F /* TimpsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimpsConstants.swift; sourceTree = "<group>"; };
+		5799121D2826603200BFFF1F /* TimpsCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimpsCalendar.swift; sourceTree = "<group>"; };
+		5799121E2826603200BFFF1F /* TimpsNormalDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimpsNormalDatePicker.swift; sourceTree = "<group>"; };
+		5799121F2826603200BFFF1F /* TimpsQuickDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimpsQuickDatePicker.swift; sourceTree = "<group>"; };
+		579912202826603200BFFF1F /* TimpsDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimpsDatePicker.swift; sourceTree = "<group>"; };
+		579912212826603200BFFF1F /* TimpsDateViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimpsDateViewer.swift; sourceTree = "<group>"; };
+		579912222826603200BFFF1F /* TimpsDatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimpsDatePickerView.swift; sourceTree = "<group>"; };
+		5799122A2826607900BFFF1F /* TimpDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimpDates.swift; sourceTree = "<group>"; };
+		5799122C282660C200BFFF1F /* TimpDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimpDelegates.swift; sourceTree = "<group>"; };
+		5799122E2826E63200BFFF1F /* TimpTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimpTypes.swift; sourceTree = "<group>"; };
+		5AB248585F6AE3D88B4A07F0B4EB3B05 /* TimpsCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimpsCalendar-umbrella.h"; sourceTree = "<group>"; };
+		5DCBD069AE98FA98CAD75479098C932A /* Pods-TimpsCalendar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimpsCalendar_Tests-Info.plist"; sourceTree = "<group>"; };
+		69FA0F6738B8F21CA5E67DDEB434B3A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77FD47E5860E75A440DC79B93F572900 /* Pods-TimpsCalendar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimpsCalendar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7ED2D953117AAA41570FD6F6A3204623 /* TimpsCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TimpsCalendar-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E253CFE0B2893A19B7CD6A3FD4710C3 /* Pods-TimpsCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimpsCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9FE645A9B23CB8285BA80E69647066F8 /* Pods-TimpsCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimpsCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A44FE198D967E6EA3D733C20A41AD31B /* TimpsCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimpsCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74BC7025FA06B56666D8E5E152A0381 /* Pods-TimpsCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimpsCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C8EDF4A11AD57165CBE0AAB0F31B704A /* Pods-TimpsCalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimpsCalendar_Tests.modulemap"; sourceTree = "<group>"; };
+		D4602E7161D93F01C6F2609F3C0070FC /* TimpsCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimpsCalendar.debug.xcconfig; sourceTree = "<group>"; };
+		DC25EAD29484E8EEE8C0E8638A92AE14 /* Pods-TimpsCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimpsCalendar_Example.modulemap"; sourceTree = "<group>"; };
+		DC3CE1BFE6642EF5553FF3635E4CBEEB /* Pods-TimpsCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimpsCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DD4FC188909B6A7CA40A947612593155 /* TimpsCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimpsCalendar.release.xcconfig; sourceTree = "<group>"; };
+		DF3B3A67F4FCBD3F2EE8E7B638660905 /* Pods-TimpsCalendar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimpsCalendar_Example-dummy.m"; sourceTree = "<group>"; };
+		E3F9EF766DC64EE8E433B7E612883251 /* TimpsCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TimpsCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EC756E6FAF0FFCDB629DF924323A859C /* Pods-TimpsCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimpsCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F689A173B5F96C62497CC2D355A2C0CC /* Pods-TimpsCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimpsCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4852899958B88B501E2F6D7A1B70BB6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD649E95D0017D702BCEFF5E5CE1FF21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E32A8325078EE7F08855EE745F37F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E22B1BA5A0788BCBE59F8830D1BCA44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AA0D90CD93F73DD538741AD9DFAAC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474BBBD92140878EE0F2D8C510FE33F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		176178FB643077EF1E9C4FAB0483A719 /* Pods-TimpsCalendar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C8EDF4A11AD57165CBE0AAB0F31B704A /* Pods-TimpsCalendar_Tests.modulemap */,
+				3720E2CCE34172DDAB8BD2BDEEA87E4E /* Pods-TimpsCalendar_Tests-acknowledgements.markdown */,
+				40935B1DC7E4A779C77266541C103967 /* Pods-TimpsCalendar_Tests-acknowledgements.plist */,
+				12676C5D43F6A4922EDBD4BA11FE2C35 /* Pods-TimpsCalendar_Tests-dummy.m */,
+				5DCBD069AE98FA98CAD75479098C932A /* Pods-TimpsCalendar_Tests-Info.plist */,
+				DC3CE1BFE6642EF5553FF3635E4CBEEB /* Pods-TimpsCalendar_Tests-umbrella.h */,
+				232C4DD0D9CBB01ED57FB5B5AF44F4F3 /* Pods-TimpsCalendar_Tests.debug.xcconfig */,
+				9E253CFE0B2893A19B7CD6A3FD4710C3 /* Pods-TimpsCalendar_Tests.release.xcconfig */,
+			);
+			name = "Pods-TimpsCalendar_Tests";
+			path = "Target Support Files/Pods-TimpsCalendar_Tests";
+			sourceTree = "<group>";
+		};
+		36752B6CF8C977A122020FEACB4E8BD0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1793228B5DC56E2E067D15125D9D07D /* Pods-TimpsCalendar_Example */,
+				176178FB643077EF1E9C4FAB0483A719 /* Pods-TimpsCalendar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4C8D491791190EA77F6EA26A66CCB2B2 /* TimpsCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				5799121B28265F3800BFFF1F /* Classes */,
+				A98C09DC80D7C1C1FD39E3DF73D14D7D /* Pod */,
+				DB4BCB99F2F825DD29D5217D30F258CE /* Support Files */,
+			);
+			name = TimpsCalendar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5799121B28265F3800BFFF1F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5799121D2826603200BFFF1F /* TimpsCalendar.swift */,
+				579912212826603200BFFF1F /* TimpsDateViewer.swift */,
+				5799121C2826603200BFFF1F /* TimpsConstants.swift */,
+				579912202826603200BFFF1F /* TimpsDatePicker.swift */,
+				579912222826603200BFFF1F /* TimpsDatePickerView.swift */,
+				5799121E2826603200BFFF1F /* TimpsNormalDatePicker.swift */,
+				5799121F2826603200BFFF1F /* TimpsQuickDatePicker.swift */,
+				5799122A2826607900BFFF1F /* TimpDates.swift */,
+				5799122C282660C200BFFF1F /* TimpDelegates.swift */,
+				5799122E2826E63200BFFF1F /* TimpTypes.swift */,
+				5785E9872827E3830034C27A /* assets.xcassets */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		600D9E6DE1F80EADA68C22A1DF5BC397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F0012A5D931A58F28F29B444B40864C /* Pods-TimpsCalendar_Example */,
+				1719E1EE4EED35BF6373C78E3B489F75 /* Pods-TimpsCalendar_Tests */,
+				A44FE198D967E6EA3D733C20A41AD31B /* TimpsCalendar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A98C09DC80D7C1C1FD39E3DF73D14D7D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				69FA0F6738B8F21CA5E67DDEB434B3A7 /* LICENSE */,
+				07FD647CA8919687025FF116F7F601A4 /* README.md */,
+				E3F9EF766DC64EE8E433B7E612883251 /* TimpsCalendar.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B1793228B5DC56E2E067D15125D9D07D /* Pods-TimpsCalendar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DC25EAD29484E8EEE8C0E8638A92AE14 /* Pods-TimpsCalendar_Example.modulemap */,
+				F689A173B5F96C62497CC2D355A2C0CC /* Pods-TimpsCalendar_Example-acknowledgements.markdown */,
+				9FE645A9B23CB8285BA80E69647066F8 /* Pods-TimpsCalendar_Example-acknowledgements.plist */,
+				DF3B3A67F4FCBD3F2EE8E7B638660905 /* Pods-TimpsCalendar_Example-dummy.m */,
+				77FD47E5860E75A440DC79B93F572900 /* Pods-TimpsCalendar_Example-frameworks.sh */,
+				1F29FB647B1394F9E757E5A5F9136A42 /* Pods-TimpsCalendar_Example-Info.plist */,
+				3AFBA6DE75E565F3D266A9192892F801 /* Pods-TimpsCalendar_Example-umbrella.h */,
+				C74BC7025FA06B56666D8E5E152A0381 /* Pods-TimpsCalendar_Example.debug.xcconfig */,
+				EC756E6FAF0FFCDB629DF924323A859C /* Pods-TimpsCalendar_Example.release.xcconfig */,
+			);
+			name = "Pods-TimpsCalendar_Example";
+			path = "Target Support Files/Pods-TimpsCalendar_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FD4DB849BD2132DB18988DF2A925579C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				600D9E6DE1F80EADA68C22A1DF5BC397 /* Products */,
+				36752B6CF8C977A122020FEACB4E8BD0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB4BCB99F2F825DD29D5217D30F258CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3094D200B64983D7BC1542003F1FB39E /* TimpsCalendar.modulemap */,
+				2A8053470B8AF9A673258DC4AD328728 /* TimpsCalendar-dummy.m */,
+				7ED2D953117AAA41570FD6F6A3204623 /* TimpsCalendar-Info.plist */,
+				50C24F496ADC97DA15347B72CA4A8794 /* TimpsCalendar-prefix.pch */,
+				5AB248585F6AE3D88B4A07F0B4EB3B05 /* TimpsCalendar-umbrella.h */,
+				D4602E7161D93F01C6F2609F3C0070FC /* TimpsCalendar.debug.xcconfig */,
+				DD4FC188909B6A7CA40A947612593155 /* TimpsCalendar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TimpsCalendar";
+			sourceTree = "<group>";
+		};
+		FD4DB849BD2132DB18988DF2A925579C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C8D491791190EA77F6EA26A66CCB2B2 /* TimpsCalendar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29D70F483C47635033C667D4DFFD4696 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370317D3F00891B41D70C29C6C2AA91F /* TimpsCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931528ABAEA39DFD8B4C172396618727 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055F1EBC3D596243789189338C9452C4 /* Pods-TimpsCalendar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28DE2D9E5766F6293AA6ACC4F08FCD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A8677FD50CC4BE2691D5CE3B98FAA3 /* Pods-TimpsCalendar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		83B3B03417D0D4285D7DD13474787742 /* Pods-TimpsCalendar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E76E20FC3716D3037C3B1D1157ADCFC /* Build configuration list for PBXNativeTarget "Pods-TimpsCalendar_Example" */;
+			buildPhases = (
+				E28DE2D9E5766F6293AA6ACC4F08FCD4 /* Headers */,
+				E6A0F891C9C029B09089FF1DAC71E560 /* Sources */,
+				C4AA0D90CD93F73DD538741AD9DFAAC8 /* Frameworks */,
+				654DFE6E5F06B04D59242FE0B0F9C5FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D533A62E24B560DC4BC53B52DFB2093 /* PBXTargetDependency */,
+			);
+			name = "Pods-TimpsCalendar_Example";
+			productName = Pods_TimpsCalendar_Example;
+			productReference = 1F0012A5D931A58F28F29B444B40864C /* Pods-TimpsCalendar_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4030F907D6447CB2E3EC7D5720757C6 /* TimpsCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2E86ADB4B1A9E8EF873FA59AABF46B /* Build configuration list for PBXNativeTarget "TimpsCalendar" */;
+			buildPhases = (
+				29D70F483C47635033C667D4DFFD4696 /* Headers */,
+				DBECE3D3317C18C1A6E699D7B9D3D940 /* Sources */,
+				4852899958B88B501E2F6D7A1B70BB6B /* Frameworks */,
+				4960E8922F937AD75AB87631A5E9BE7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimpsCalendar;
+			productName = TimpsCalendar;
+			productReference = A44FE198D967E6EA3D733C20A41AD31B /* TimpsCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D76E96106039B2E92672472B1BCBFD6F /* Pods-TimpsCalendar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1547A743C32020E5F7E4755DA09DB9 /* Build configuration list for PBXNativeTarget "Pods-TimpsCalendar_Tests" */;
+			buildPhases = (
+				931528ABAEA39DFD8B4C172396618727 /* Headers */,
+				07638E4E33A59B32A313057FF452C0F2 /* Sources */,
+				4E32A8325078EE7F08855EE745F37F60 /* Frameworks */,
+				FD6AECDF2881C4768853D7D53AD917C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D358B48165F352CC40F26CC7267B7D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-TimpsCalendar_Tests";
+			productName = Pods_TimpsCalendar_Tests;
+			productReference = 1719E1EE4EED35BF6373C78E3B489F75 /* Pods-TimpsCalendar_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B4030F907D6447CB2E3EC7D5720757C6 = {
+						LastSwiftMigration = 1310;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 600D9E6DE1F80EADA68C22A1DF5BC397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83B3B03417D0D4285D7DD13474787742 /* Pods-TimpsCalendar_Example */,
+				D76E96106039B2E92672472B1BCBFD6F /* Pods-TimpsCalendar_Tests */,
+				B4030F907D6447CB2E3EC7D5720757C6 /* TimpsCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4960E8922F937AD75AB87631A5E9BE7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5785E9882827E3830034C27A /* assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654DFE6E5F06B04D59242FE0B0F9C5FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6AECDF2881C4768853D7D53AD917C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07638E4E33A59B32A313057FF452C0F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32164F18279DA33670079565F864169E /* Pods-TimpsCalendar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBECE3D3317C18C1A6E699D7B9D3D940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579912292826603200BFFF1F /* TimpsDatePickerView.swift in Sources */,
+				5799122F2826E63200BFFF1F /* TimpTypes.swift in Sources */,
+				579912282826603200BFFF1F /* TimpsDateViewer.swift in Sources */,
+				579912252826603200BFFF1F /* TimpsNormalDatePicker.swift in Sources */,
+				579912242826603200BFFF1F /* TimpsCalendar.swift in Sources */,
+				579912272826603200BFFF1F /* TimpsDatePicker.swift in Sources */,
+				5799122B2826607900BFFF1F /* TimpDates.swift in Sources */,
+				579912262826603200BFFF1F /* TimpsQuickDatePicker.swift in Sources */,
+				579912232826603200BFFF1F /* TimpsConstants.swift in Sources */,
+				5799122D282660C200BFFF1F /* TimpDelegates.swift in Sources */,
+				15FFEC8417053D0C0FF14A06CE4D441A /* TimpsCalendar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A0F891C9C029B09089FF1DAC71E560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F330CA35C5257ED28CDA71E6E93418BC /* Pods-TimpsCalendar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D358B48165F352CC40F26CC7267B7D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TimpsCalendar_Example";
+			target = 83B3B03417D0D4285D7DD13474787742 /* Pods-TimpsCalendar_Example */;
+			targetProxy = D8404450AFFEEC4CE2567E4B7F96534E /* PBXContainerItemProxy */;
+		};
+		3D533A62E24B560DC4BC53B52DFB2093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TimpsCalendar;
+			target = B4030F907D6447CB2E3EC7D5720757C6 /* TimpsCalendar */;
+			targetProxy = E04C2BA00051220922865D13D7380094 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		86658FF7F81219647B0E05F59568B265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4FC188909B6A7CA40A947612593155 /* TimpsCalendar.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimpsCalendar/TimpsCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimpsCalendar/TimpsCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TimpsCalendar/TimpsCalendar.modulemap";
+				PRODUCT_MODULE_NAME = TimpsCalendar;
+				PRODUCT_NAME = TimpsCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88610B9A52A69E2817A4C2E593EE9621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 232C4DD0D9CBB01ED57FB5B5AF44F4F3 /* Pods-TimpsCalendar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimpsCalendar_Tests/Pods-TimpsCalendar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimpsCalendar_Tests/Pods-TimpsCalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D7467123EF53B41D8E66DB8DD478BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC756E6FAF0FFCDB629DF924323A859C /* Pods-TimpsCalendar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimpsCalendar_Example/Pods-TimpsCalendar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimpsCalendar_Example/Pods-TimpsCalendar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD9228140BEB7663811EC42DF786E3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74BC7025FA06B56666D8E5E152A0381 /* Pods-TimpsCalendar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimpsCalendar_Example/Pods-TimpsCalendar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimpsCalendar_Example/Pods-TimpsCalendar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D92A6A136E36891FFA7B65F1AE9C0121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4602E7161D93F01C6F2609F3C0070FC /* TimpsCalendar.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimpsCalendar/TimpsCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimpsCalendar/TimpsCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TimpsCalendar/TimpsCalendar.modulemap";
+				PRODUCT_MODULE_NAME = TimpsCalendar;
+				PRODUCT_NAME = TimpsCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E828B64FACFE435F37A65B25F94DE722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E253CFE0B2893A19B7CD6A3FD4710C3 /* Pods-TimpsCalendar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimpsCalendar_Tests/Pods-TimpsCalendar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimpsCalendar_Tests/Pods-TimpsCalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E76E20FC3716D3037C3B1D1157ADCFC /* Build configuration list for PBXNativeTarget "Pods-TimpsCalendar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9228140BEB7663811EC42DF786E3B1 /* Debug */,
+				8D7467123EF53B41D8E66DB8DD478BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2E86ADB4B1A9E8EF873FA59AABF46B /* Build configuration list for PBXNativeTarget "TimpsCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92A6A136E36891FFA7B65F1AE9C0121 /* Debug */,
+				86658FF7F81219647B0E05F59568B265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1547A743C32020E5F7E4755DA09DB9 /* Build configuration list for PBXNativeTarget "Pods-TimpsCalendar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88610B9A52A69E2817A4C2E593EE9621 /* Debug */,
+				E828B64FACFE435F37A65B25F94DE722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

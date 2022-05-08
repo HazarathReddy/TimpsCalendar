@@ -1,0 +1,16 @@
+PODS:
+  - TimpsCalendar (0.1.0)
+
+DEPENDENCIES:
+  - TimpsCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  TimpsCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TimpsCalendar: b68ec8f2ce4a2b46aca2a2cc7b7e9ac94d15b45c
+
+PODFILE CHECKSUM: 2e778d9e6e455c0a71e3196b82f4b3006ebe8ba0
+
+COCOAPODS: 1.11.2

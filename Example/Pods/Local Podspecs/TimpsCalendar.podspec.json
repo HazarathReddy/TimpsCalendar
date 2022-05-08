@@ -1,0 +1,22 @@
+{
+  "name": "TimpsCalendar",
+  "version": "0.1.0",
+  "summary": "A short description of TimpsCalendar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/HazarathReddy/TimpsCalendar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "HazarathReddy": "hazarath.reddy@airtel.com"
+  },
+  "source": {
+    "git": "https://github.com/HazarathReddy/TimpsCalendar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TimpsCalendar/Classes/**/*"
+}
