@@ -13,17 +13,17 @@
 		370317D3F00891B41D70C29C6C2AA91F /* TimpsCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB248585F6AE3D88B4A07F0B4EB3B05 /* TimpsCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		474BBBD92140878EE0F2D8C510FE33F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4E22B1BA5A0788BCBE59F8830D1BCA44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5785E994282828130034C27A /* TimpsDateViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E989282828120034C27A /* TimpsDateViewer.swift */; };
-		5785E995282828130034C27A /* TimpsCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E98A282828130034C27A /* TimpsCalendar.swift */; };
-		5785E996282828130034C27A /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5785E98B282828130034C27A /* assets.xcassets */; };
-		5785E997282828130034C27A /* TimpDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E98C282828130034C27A /* TimpDates.swift */; };
-		5785E998282828130034C27A /* TimpsDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E98D282828130034C27A /* TimpsDatePicker.swift */; };
-		5785E999282828130034C27A /* TimpsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E98E282828130034C27A /* TimpsConstants.swift */; };
-		5785E99A282828130034C27A /* TimpDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E98F282828130034C27A /* TimpDelegates.swift */; };
-		5785E99B282828130034C27A /* TimpsNormalDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E990282828130034C27A /* TimpsNormalDatePicker.swift */; };
-		5785E99C282828130034C27A /* TimpTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E991282828130034C27A /* TimpTypes.swift */; };
-		5785E99D282828130034C27A /* TimpsQuickDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E992282828130034C27A /* TimpsQuickDatePicker.swift */; };
-		5785E99E282828130034C27A /* TimpsDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E993282828130034C27A /* TimpsDatePickerView.swift */; };
+		5785E9B828283BA40034C27A /* TimpTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E9AD28283BA40034C27A /* TimpTypes.swift */; };
+		5785E9B928283BA40034C27A /* TimpDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E9AE28283BA40034C27A /* TimpDates.swift */; };
+		5785E9BA28283BA40034C27A /* TimpsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E9AF28283BA40034C27A /* TimpsConstants.swift */; };
+		5785E9BB28283BA40034C27A /* TimpDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E9B028283BA40034C27A /* TimpDelegates.swift */; };
+		5785E9BC28283BA40034C27A /* TimpsDateViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E9B128283BA40034C27A /* TimpsDateViewer.swift */; };
+		5785E9BD28283BA40034C27A /* TimpsDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E9B228283BA40034C27A /* TimpsDatePicker.swift */; };
+		5785E9BE28283BA40034C27A /* TimpsDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E9B328283BA40034C27A /* TimpsDatePickerView.swift */; };
+		5785E9BF28283BA40034C27A /* TimpsNormalDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E9B428283BA40034C27A /* TimpsNormalDatePicker.swift */; };
+		5785E9C028283BA40034C27A /* TimpsQuickDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E9B528283BA40034C27A /* TimpsQuickDatePicker.swift */; };
+		5785E9C128283BA40034C27A /* TimpsCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785E9B628283BA40034C27A /* TimpsCalendar.swift */; };
+		5785E9C228283BA40034C27A /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5785E9B728283BA40034C27A /* assets.xcassets */; };
 		60A8677FD50CC4BE2691D5CE3B98FAA3 /* Pods-TimpsCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AFBA6DE75E565F3D266A9192892F801 /* Pods-TimpsCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F330CA35C5257ED28CDA71E6E93418BC /* Pods-TimpsCalendar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3B3A67F4FCBD3F2EE8E7B638660905 /* Pods-TimpsCalendar_Example-dummy.m */; };
 		FD649E95D0017D702BCEFF5E5CE1FF21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -59,17 +59,17 @@
 		3AFBA6DE75E565F3D266A9192892F801 /* Pods-TimpsCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimpsCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
 		40935B1DC7E4A779C77266541C103967 /* Pods-TimpsCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimpsCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		50C24F496ADC97DA15347B72CA4A8794 /* TimpsCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimpsCalendar-prefix.pch"; sourceTree = "<group>"; };
-		5785E989282828120034C27A /* TimpsDateViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpsDateViewer.swift; path = TimpsCalendar/Classes/TimpsDateViewer.swift; sourceTree = "<group>"; };
-		5785E98A282828130034C27A /* TimpsCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpsCalendar.swift; path = TimpsCalendar/Classes/TimpsCalendar.swift; sourceTree = "<group>"; };
-		5785E98B282828130034C27A /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = assets.xcassets; path = TimpsCalendar/Classes/assets.xcassets; sourceTree = "<group>"; };
-		5785E98C282828130034C27A /* TimpDates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpDates.swift; path = TimpsCalendar/Classes/TimpDates.swift; sourceTree = "<group>"; };
-		5785E98D282828130034C27A /* TimpsDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpsDatePicker.swift; path = TimpsCalendar/Classes/TimpsDatePicker.swift; sourceTree = "<group>"; };
-		5785E98E282828130034C27A /* TimpsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpsConstants.swift; path = TimpsCalendar/Classes/TimpsConstants.swift; sourceTree = "<group>"; };
-		5785E98F282828130034C27A /* TimpDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpDelegates.swift; path = TimpsCalendar/Classes/TimpDelegates.swift; sourceTree = "<group>"; };
-		5785E990282828130034C27A /* TimpsNormalDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpsNormalDatePicker.swift; path = TimpsCalendar/Classes/TimpsNormalDatePicker.swift; sourceTree = "<group>"; };
-		5785E991282828130034C27A /* TimpTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpTypes.swift; path = TimpsCalendar/Classes/TimpTypes.swift; sourceTree = "<group>"; };
-		5785E992282828130034C27A /* TimpsQuickDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpsQuickDatePicker.swift; path = TimpsCalendar/Classes/TimpsQuickDatePicker.swift; sourceTree = "<group>"; };
-		5785E993282828130034C27A /* TimpsDatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpsDatePickerView.swift; path = TimpsCalendar/Classes/TimpsDatePickerView.swift; sourceTree = "<group>"; };
+		5785E9AD28283BA40034C27A /* TimpTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpTypes.swift; path = TimpsCalendar/TimpTypes.swift; sourceTree = "<group>"; };
+		5785E9AE28283BA40034C27A /* TimpDates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpDates.swift; path = TimpsCalendar/TimpDates.swift; sourceTree = "<group>"; };
+		5785E9AF28283BA40034C27A /* TimpsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpsConstants.swift; path = TimpsCalendar/TimpsConstants.swift; sourceTree = "<group>"; };
+		5785E9B028283BA40034C27A /* TimpDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpDelegates.swift; path = TimpsCalendar/TimpDelegates.swift; sourceTree = "<group>"; };
+		5785E9B128283BA40034C27A /* TimpsDateViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpsDateViewer.swift; path = TimpsCalendar/TimpsDateViewer.swift; sourceTree = "<group>"; };
+		5785E9B228283BA40034C27A /* TimpsDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpsDatePicker.swift; path = TimpsCalendar/TimpsDatePicker.swift; sourceTree = "<group>"; };
+		5785E9B328283BA40034C27A /* TimpsDatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpsDatePickerView.swift; path = TimpsCalendar/TimpsDatePickerView.swift; sourceTree = "<group>"; };
+		5785E9B428283BA40034C27A /* TimpsNormalDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpsNormalDatePicker.swift; path = TimpsCalendar/TimpsNormalDatePicker.swift; sourceTree = "<group>"; };
+		5785E9B528283BA40034C27A /* TimpsQuickDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpsQuickDatePicker.swift; path = TimpsCalendar/TimpsQuickDatePicker.swift; sourceTree = "<group>"; };
+		5785E9B628283BA40034C27A /* TimpsCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimpsCalendar.swift; path = TimpsCalendar/TimpsCalendar.swift; sourceTree = "<group>"; };
+		5785E9B728283BA40034C27A /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = assets.xcassets; path = TimpsCalendar/assets.xcassets; sourceTree = "<group>"; };
 		5AB248585F6AE3D88B4A07F0B4EB3B05 /* TimpsCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimpsCalendar-umbrella.h"; sourceTree = "<group>"; };
 		5DCBD069AE98FA98CAD75479098C932A /* Pods-TimpsCalendar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimpsCalendar_Tests-Info.plist"; sourceTree = "<group>"; };
 		69FA0F6738B8F21CA5E67DDEB434B3A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -148,17 +148,17 @@
 		4C8D491791190EA77F6EA26A66CCB2B2 /* TimpsCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				5785E98B282828130034C27A /* assets.xcassets */,
-				5785E98C282828130034C27A /* TimpDates.swift */,
-				5785E98F282828130034C27A /* TimpDelegates.swift */,
-				5785E98A282828130034C27A /* TimpsCalendar.swift */,
-				5785E98E282828130034C27A /* TimpsConstants.swift */,
-				5785E98D282828130034C27A /* TimpsDatePicker.swift */,
-				5785E993282828130034C27A /* TimpsDatePickerView.swift */,
-				5785E989282828120034C27A /* TimpsDateViewer.swift */,
-				5785E990282828130034C27A /* TimpsNormalDatePicker.swift */,
-				5785E992282828130034C27A /* TimpsQuickDatePicker.swift */,
-				5785E991282828130034C27A /* TimpTypes.swift */,
+				5785E9B728283BA40034C27A /* assets.xcassets */,
+				5785E9AE28283BA40034C27A /* TimpDates.swift */,
+				5785E9B028283BA40034C27A /* TimpDelegates.swift */,
+				5785E9B628283BA40034C27A /* TimpsCalendar.swift */,
+				5785E9AF28283BA40034C27A /* TimpsConstants.swift */,
+				5785E9B228283BA40034C27A /* TimpsDatePicker.swift */,
+				5785E9B328283BA40034C27A /* TimpsDatePickerView.swift */,
+				5785E9B128283BA40034C27A /* TimpsDateViewer.swift */,
+				5785E9B428283BA40034C27A /* TimpsNormalDatePicker.swift */,
+				5785E9B528283BA40034C27A /* TimpsQuickDatePicker.swift */,
+				5785E9AD28283BA40034C27A /* TimpTypes.swift */,
 				A98C09DC80D7C1C1FD39E3DF73D14D7D /* Pod */,
 				DB4BCB99F2F825DD29D5217D30F258CE /* Support Files */,
 			);
@@ -378,7 +378,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5785E996282828130034C27A /* assets.xcassets in Resources */,
+				5785E9C228283BA40034C27A /* assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,17 +411,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5785E99C282828130034C27A /* TimpTypes.swift in Sources */,
-				5785E99B282828130034C27A /* TimpsNormalDatePicker.swift in Sources */,
-				5785E995282828130034C27A /* TimpsCalendar.swift in Sources */,
-				5785E99E282828130034C27A /* TimpsDatePickerView.swift in Sources */,
-				5785E999282828130034C27A /* TimpsConstants.swift in Sources */,
-				5785E998282828130034C27A /* TimpsDatePicker.swift in Sources */,
-				5785E997282828130034C27A /* TimpDates.swift in Sources */,
+				5785E9BE28283BA40034C27A /* TimpsDatePickerView.swift in Sources */,
+				5785E9BD28283BA40034C27A /* TimpsDatePicker.swift in Sources */,
 				15FFEC8417053D0C0FF14A06CE4D441A /* TimpsCalendar-dummy.m in Sources */,
-				5785E99A282828130034C27A /* TimpDelegates.swift in Sources */,
-				5785E994282828130034C27A /* TimpsDateViewer.swift in Sources */,
-				5785E99D282828130034C27A /* TimpsQuickDatePicker.swift in Sources */,
+				5785E9BA28283BA40034C27A /* TimpsConstants.swift in Sources */,
+				5785E9BF28283BA40034C27A /* TimpsNormalDatePicker.swift in Sources */,
+				5785E9B828283BA40034C27A /* TimpTypes.swift in Sources */,
+				5785E9BB28283BA40034C27A /* TimpDelegates.swift in Sources */,
+				5785E9B928283BA40034C27A /* TimpDates.swift in Sources */,
+				5785E9C128283BA40034C27A /* TimpsCalendar.swift in Sources */,
+				5785E9BC28283BA40034C27A /* TimpsDateViewer.swift in Sources */,
+				5785E9C028283BA40034C27A /* TimpsQuickDatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
