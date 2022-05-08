@@ -32,11 +32,11 @@
 		4061FC7D3F9F14C2B29ACDEE /* Pods_TimpsCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimpsCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		434F7EC1E49E3770E82B1CB4 /* Pods-TimpsCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimpsCalendar_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TimpsCalendar_Tests/Pods-TimpsCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		527B8FD39534942CF17DB497 /* Pods-TimpsCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimpsCalendar_Example.debug.xcconfig"; path = "Target Support Files/Pods-TimpsCalendar_Example/Pods-TimpsCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5785E9A3282831640034C27A /* normal_date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = normal_date.png; path = ../screens/normal_date.png; sourceTree = "<group>"; };
-		5785E9A4282831640034C27A /* quick_calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quick_calendar.png; path = ../screens/quick_calendar.png; sourceTree = "<group>"; };
-		5785E9A5282831640034C27A /* Timps_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Timps_logo.png; path = ../screens/Timps_logo.png; sourceTree = "<group>"; };
-		5785E9A6282831640034C27A /* normal_calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = normal_calendar.png; path = ../screens/normal_calendar.png; sourceTree = "<group>"; };
-		5785E9A7282834200034C27A /* Interface_builder_flow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Interface_builder_flow.png; path = ../screens/Interface_builder_flow.png; sourceTree = "<group>"; };
+		5785E9A82828376F0034C27A /* Interface_builder_flow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Interface_builder_flow.png; path = ../Interface_builder_flow.png; sourceTree = "<group>"; };
+		5785E9A92828376F0034C27A /* Timps_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Timps_logo.png; path = ../Timps_logo.png; sourceTree = "<group>"; };
+		5785E9AA2828376F0034C27A /* normal_date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = normal_date.png; path = ../normal_date.png; sourceTree = "<group>"; };
+		5785E9AB2828376F0034C27A /* quick_calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quick_calendar.png; path = ../quick_calendar.png; sourceTree = "<group>"; };
+		5785E9AC2828376F0034C27A /* normal_calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = normal_calendar.png; path = ../normal_calendar.png; sourceTree = "<group>"; };
 		5FCE7287A2FACBAAA30382E0 /* Pods-TimpsCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimpsCalendar_Example.release.xcconfig"; path = "Target Support Files/Pods-TimpsCalendar_Example/Pods-TimpsCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TimpsCalendar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimpsCalendar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -137,11 +137,11 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				5785E9A7282834200034C27A /* Interface_builder_flow.png */,
-				5785E9A6282831640034C27A /* normal_calendar.png */,
-				5785E9A3282831640034C27A /* normal_date.png */,
-				5785E9A4282831640034C27A /* quick_calendar.png */,
-				5785E9A5282831640034C27A /* Timps_logo.png */,
+				5785E9A82828376F0034C27A /* Interface_builder_flow.png */,
+				5785E9AC2828376F0034C27A /* normal_calendar.png */,
+				5785E9AA2828376F0034C27A /* normal_date.png */,
+				5785E9AB2828376F0034C27A /* quick_calendar.png */,
+				5785E9A92828376F0034C27A /* Timps_logo.png */,
 				929307003F92FEA6BE91499D /* TimpsCalendar.podspec */,
 				8E65C7BFC61BBD303004F411 /* README.md */,
 				A3E14EBE06959648D48933B4 /* LICENSE */,
