@@ -11,7 +11,7 @@ import UIKit
 public class TimpsCalendar: UIView {
 
     // Private variables
-    private var calendarCollection: UICollectionView
+    private var calendarCollection: UICollectionView?
 
     private var collectionItemSize: CGSize = .zero
 
@@ -81,16 +81,16 @@ public class TimpsCalendar: UIView {
         layout.minimumLineSpacing = 0
         layout.minimumInteritemSpacing = 0
         calendarCollection = UICollectionView(frame: self.bounds, collectionViewLayout: layout)
-        self.addSubview(calendarCollection)
+        self.addSubview(calendarCollection!)
     }
 
     private func registerCalendarViews() {
-        self.calendarCollection.dataSource = self
-        self.calendarCollection.delegate = self
-        self.calendarCollection.register(TimpsDateViewer.self, forCellWithReuseIdentifier: TimpsDateViewer.cellID)
-        self.calendarCollection.register(TimpsDatePickerView.self, forCellWithReuseIdentifier: TimpsDatePickerView.cellID)
-        self.calendarCollection.register(TimpsQuickDatePicker.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader , withReuseIdentifier: TimpsQuickDatePicker.headerID)
-        self.calendarCollection.register(TimpsNormalDatePicker.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader , withReuseIdentifier: TimpsNormalDatePicker.headerID)
+        self.calendarCollection?.dataSource = self
+        self.calendarCollection?.delegate = self
+        self.calendarCollection?.register(TimpsDateViewer.self, forCellWithReuseIdentifier: TimpsDateViewer.cellID)
+        self.calendarCollection?.register(TimpsDatePickerView.self, forCellWithReuseIdentifier: TimpsDatePickerView.cellID)
+        self.calendarCollection?.register(TimpsQuickDatePicker.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader , withReuseIdentifier: TimpsQuickDatePicker.headerID)
+        self.calendarCollection?.register(TimpsNormalDatePicker.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader , withReuseIdentifier: TimpsNormalDatePicker.headerID)
     }
 
     private func reloadCalender() {
@@ -100,7 +100,7 @@ public class TimpsCalendar: UIView {
             startDayOfMonth = Calendar.current.date(byAdding: .day, value: -firstWeekday + 1, to: currentDate.firstDayOfTheMonth)!
             getDaysCount()
         }
-        self.calendarCollection.reloadData()
+        self.calendarCollection?.reloadData()
     }
 
     private func getDaysCount() {
@@ -129,7 +129,7 @@ public class TimpsCalendar: UIView {
         layout.minimumLineSpacing = 0
         layout.minimumInteritemSpacing = 0
         collectionItemSize =  CGSize(width: customWidth/7, height: customHeight/CGFloat(dateRowsCount))
-        self.calendarCollection.reloadData()
+        self.calendarCollection?.reloadData()
     }
 }
 
@@ -222,7 +222,7 @@ extension TimpsCalendar: UICollectionViewDelegate {
         if let selectedDate = Calendar.current.date(byAdding: .day, value: indexPath.item, to: startDayOfMonth!) {
             lastSelectedDate = selectedDate.localDate()
             self.delegate?.selectedDate(date: lastSelectedDate!)
-            self.calendarCollection.reloadData()
+            self.calendarCollection?.reloadData()
         }
     }
 
