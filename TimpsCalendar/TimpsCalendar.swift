@@ -11,7 +11,7 @@ import UIKit
 public class TimpsCalendar: UIView {
 
     // Private variables
-    private var calendarCollection: UICollectionView!
+    private var calendarCollection: UICollectionView
 
     private var collectionItemSize: CGSize = .zero
 
