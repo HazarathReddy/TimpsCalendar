@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TimpsCalendar'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'TimpsCalendar helps you to pick the date from calendar. This library constains of two different types of calendars(normal, quick).'
   s.swift_version    = '4.0'
 
