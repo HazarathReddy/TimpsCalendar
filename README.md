@@ -11,8 +11,8 @@ TimpsCalendar helps you to pick the date from calendar. This library constains o
 
 ## Requirements
 
-- iOS 9.0+, iPadOS 9.0+
-- Swift 5.0+
+- iOS 9.0+
+- Swift 4.0+
 
 
 ## Installation
@@ -29,8 +29,7 @@ pod 'TimpsCalendar'
 
 Set calendar type as normal to get this design 
 
-<p align="center"><img src="normal_calendar.png"></p>
-<p align="center"><img src="normal_date.png"></p>
+<img src="normal_calendar.png" width="350" align="top"> <img src="normal_date.png" width="350" align="top">
 
 ```swift
     calendar.calendarType = .normal
@@ -40,7 +39,7 @@ Set calendar type as normal to get this design
 
 Using quick type you can easily change the month and year with single swipe. Set calendar type as quick to get this design 
 
-<p align="center"><img src="quick_calendar.png"></p>
+<p align="center"><img src="quick_calendar.png" width="350" height="350"></p>
 
 ```swift
     calendar.calendarType = .quick
