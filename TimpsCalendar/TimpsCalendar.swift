@@ -38,6 +38,7 @@ public class TimpsCalendar: UIView {
 
     public var delegate: TimpsCalendarDelegate?
 
+    // Date formats
     private var monthFormatter: DateFormatter {
         let f = DateFormatter()
         f.dateFormat = "MMM YYYY"
