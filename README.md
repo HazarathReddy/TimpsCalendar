@@ -39,7 +39,7 @@ Set calendar type as normal to get this design
 
 Using quick type you can easily change the month and year with single swipe. Set calendar type as quick to get this design 
 
-<p align="center"><img src="quick_calendar.png" width="350" height="350"></p>
+<p align="center"><img src="quick_calendar.png" width="350" height="300"></p>
 
 ```swift
     calendar.calendarType = .quick
